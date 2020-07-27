@@ -396,7 +396,7 @@ h1{
 /* Slide - 1 */
 .coding{
     width: 325px;
-    height: 535px;
+    height: auto;
 }
 
 .code-img{
@@ -418,7 +418,7 @@ h1{
 /* Slide - 2 */
 .fact{
     width: 325px;
-    height: 600px;
+    height: auto;
 }
 
 .fact-desc{
@@ -433,7 +433,7 @@ h1{
 /* Interest - 2 */
 .photography{
     width: 325px;
-    height: 350px;        
+    height: auto;        
 }
 
 .photography-img{
@@ -449,14 +449,14 @@ h1{
 
 .photography-desc{
     font-size: 20px;
-    text-align: justify;
+    text-align: left;
 }
 
 /* Images */
 .moon-img{
-    left: 0px;
-    top: 650px;
-    width: 70px;
+    bottom: 400px;
+    top: auto;
+    width: 50px;
 }
 
 .r-m-plant{
