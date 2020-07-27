@@ -396,7 +396,7 @@ h1{
 /* Slide - 1 */
 .coding{
     width: 325px;
-    height: 555px;
+    height: 535px;
 }
 
 .code-img{
@@ -412,13 +412,13 @@ h1{
 
 .code-desc{
     font-size: 20px;
-    text-align: justify;
+    text-align: left;
 }
 
 /* Slide - 2 */
 .fact{
     width: 325px;
-    height: 555px;
+    height: 575px;
 }
 
 .fact-desc{
