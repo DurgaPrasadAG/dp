@@ -106,7 +106,7 @@ h1{
     color: #f9ffe3;
     font-family: 'Ubuntu Mono', monospace;
     font-size: 40px;
-    text-align:justify;
+    text-align: left;
     text-shadow: 2px 2px 5px #3c4649
 }
 
@@ -134,7 +134,7 @@ h1{
     color: #d9f5eb;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    text-align: justify;
+    text-align: left;
     line-height: 1.5;
 }
 
@@ -171,6 +171,7 @@ h1{
     color: azure;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
+    text-align: left;
     line-height: 1.5;
 }
 
@@ -238,6 +239,7 @@ h1{
 }
 
 .credits-main{
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     text-align: center;
 }
@@ -249,6 +251,7 @@ h1{
 }
 
 .t-color{
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     color:#807f56;
     text-decoration: none;
@@ -347,15 +350,16 @@ h1{
 
 .dp-img{
     margin: 35px auto 35px auto;
-    width: 300px;
+    width: 340px;
 }
 
 .dp-name{
-    font-size: 40px;
+    font-size: 45px;
+    font-weight: bold;
 }
 
 .dp-desc{
-    font-size: 17px;
+    font-size: 15px;
 }
 
 /* Images */
@@ -392,7 +396,7 @@ h1{
 /* Slide - 1 */
 .coding{
     width: 325px;
-    height: 535px;
+    height: 555px;
 }
 
 .code-img{
@@ -414,7 +418,7 @@ h1{
 /* Slide - 2 */
 .fact{
     width: 325px;
-    height: 535px;
+    height: 555px;
 }
 
 .fact-desc{
