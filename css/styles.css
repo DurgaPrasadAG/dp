@@ -5,15 +5,7 @@ body{
 h1{
     color: #1886ec;
     text-align: center;
-    font-size: 80px;
     margin: 0;
-}
-
-hr{
-    border-style: none;
-    border-top-style: dotted;
-    border-width: 5px;
-    width: 5%;
 }
 
 /* Top Container */
@@ -24,31 +16,29 @@ hr{
 }
 
 .t-header-title{
-    font-family: Agency FB;
+    font-family: 'Teko', sans-serif;
     font-size: 80px;
     text-align: left;
     margin-left: 10px;
 }
 
-
-
 .dp-img{
-    display: block;
+    box-shadow: 8px 8px 8px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5%;
+    display: block;
     width: 430px;
     margin: auto;
 }
 
 .dp-name{
-    font-family: Gabriola;
-    font-size: 80px;
-    margin-top: 10px;
-    text-align: center;    
+    font-family: 'Satisfy', cursive;
+    font-size: 60px;
+    margin: 20px;
 }
 
 .dp-desc{
     color: #1886ec;
-    font-family: Century Gothic;
+    font-family: 'Ubuntu', sans-serif;    
     text-align: center;
     font-size: 20px;
     margin: 0px;
@@ -91,11 +81,10 @@ hr{
 }
 
 .m-header-title{
+    font-family: 'Montserrat', sans-serif;
     color: #ecff3d;
-    font-family: 'Comfortaa', cursive;
-    padding-top: 10px;
+    font-size: 80px;
 }
-
 
 /* Interest - 1 */ 
 /* Slide - 1 */ 
@@ -115,14 +104,15 @@ hr{
 
 .code-title{
     color: #f9ffe3;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 40px;
     text-align:justify;
+    text-shadow: 2px 2px 5px #3c4649
 }
 
 .code-desc{
     color: aliceblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     text-align: justify;
     line-height: 1.5;
@@ -142,7 +132,7 @@ hr{
 
 .fact-desc{
     color: #d9f5eb;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     text-align: justify;
     line-height: 1.5;
@@ -172,15 +162,15 @@ hr{
 }
 
 .photography-title{
-    font-family: 'Play', sans-serif;
     color: #b2e0e0;
-    font-size: 30px;
+    font-family: 'Play', sans-serif;
+    font-size: 40px;
 }
 
 .photography-desc{
     color: azure;
-    font-size: 25px;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
     line-height: 1.5;
 }
 
@@ -208,16 +198,8 @@ hr{
 .social{
     display: inline-block;
     color: #807f56;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     margin: 0;
-}
-
-.follow-me{
-    color: #4d4a4a;
-    font-family: Gabriola;
-    font-size: 35px;
-    text-decoration: none;
 }
 
 .credits{
@@ -227,34 +209,9 @@ hr{
 }
 
 .cred-link{
-    font-family: Arial, Helvetica, sans-serif;
     color: #807f56;
-    text-decoration: none;
-}
-
-.icon{
-    background-color: #f5f8d5;
-}
-
-.credits-main{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
-    text-align: center;
-}
-
-.icon-title{
-    font-family: 'Play', sans-serif;
-    font-size: 30px;
-    text-align: center;
-}
-
-.t-color{
-    text-decoration: none;
-}
-
-a{
-    font-family: Arial, Helvetica, sans-serif;
-    color:#807f56;
     text-decoration: none;
 }
 
@@ -273,6 +230,33 @@ a{
     border-radius: 20%;
     background-color: red;
 }
+
+/* Credits */
+
+.icon{
+    background-color: #f5f8d5;
+}
+
+.credits-main{
+    font-size: 20px;
+    text-align: center;
+}
+
+.icon-title{
+    font-family: 'Play', sans-serif;    
+    font-size: 30px;
+    text-align: center;
+}
+
+.t-color{
+    font-size: 20px;
+    color:#807f56;
+    text-decoration: none;
+}
+.t-color:hover{
+    color: red;
+}
+
 
 @media (max-width: 768px){
 
@@ -355,43 +339,42 @@ a{
 /* Smartphone view */
 @media (max-width: 575.98px) {
 
-h1{
-    font-size: 30px;
-}
-
 /* Top container */
 .t-header-title{
-   font-size: 30px;
+    font-size: 50px;
+    padding-top: 25px;
 }
 
 .dp-img{
-    width: 180px;
+    margin: 35px auto 35px auto;
+    width: 300px;
 }
 
 .dp-name{
-    font-size: 33px;
-    margin-bottom: 0;
+    font-size: 40px;
 }
+
 .dp-desc{
-    font-size: 10px;
+    font-size: 17px;
 }
 
 /* Images */
 .display-img{
-    top: 10px;
-    right: 10px;
+    top: 15px;
+    right: 20px;
     width: 70px;
 }
 
 .web-img{
-    left: 10px;
-    top: 250px;
+    left: 15px;
+    top: 500px;
     width: 70px;
 }
 
 .smartphone-img{
-    margin: auto;
-    width: 8rem;
+    margin: 10px auto;
+    padding: 10px;
+    width: 275px;
 }
 
 .r-t-tree{
@@ -402,14 +385,14 @@ h1{
 
 /* Middle container */
 .m-header-title{
-    font-size: 30px;
+    font-size: 40px;
 }
 
 /* Interest - 1 */
 /* Slide - 1 */
 .coding{
-    width: 250px;
-    height: 400px;
+    width: 325px;
+    height: 535px;
 }
 
 .code-img{
@@ -419,30 +402,34 @@ h1{
 }
 
 .code-title{
-    font-size: 20px;
+    font-size: 35px;
     text-align: left;
 }
 
 .code-desc{
-    font-size: 15px;
-    text-align: left;
+    font-size: 20px;
+    text-align: justify;
 }
 
 /* Slide - 2 */
 .fact{
-    width: 250px;
-    height: 400px;
+    width: 325px;
+    height: 535px;
 }
 
 .fact-desc{
-    font-size: 15px;
+    font-size: 20px;
     text-align: justify;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    width: 0 !important;
 }
 
 /* Interest - 2 */
 .photography{
-    width: 250px;
-    height: 275px;        
+    width: 325px;
+    height: 350px;        
 }
 
 .photography-img{
@@ -452,19 +439,19 @@ h1{
 }
 
 .photography-title{
-    font-size: 20px;
+    font-size: 35px;
     text-align: center;        
 }
 
 .photography-desc{
-    font-size: 15px;
+    font-size: 20px;
     text-align: justify;
 }
 
 /* Images */
 .moon-img{
     left: 0px;
-    top: 500px;
+    top: 650px;
     width: 70px;
 }
 
@@ -472,7 +459,7 @@ h1{
     margin-top: 10px;
     right: 0px;
     bottom: 0px;
-    width: 70px;               
+    width: 50px;               
 }
 
 /* Footer */
@@ -480,15 +467,26 @@ h1{
     width: 30px;
 }
 
-.color{
-    font-size: 15px;
-}
-
-.credits-main{
-    font-size: 15px;
-}
-
 .cred-link{
     font-size: 15px;
 }
+
+/* Credits */
+.credits-main{
+    font-size: 17px;
 }
+
+.t-color{
+    font-size: 17px;
+}
+}
+
+/* Fonts
+link : <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Play&family=Satisfy&family=Teko:wght@500&family=Ubuntu+Mono&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+1.  font-family: 'Satisfy', cursive; 
+2.  font-family: 'Play', sans-serif;
+3.  font-family: 'Montserrat', sans-serif;
+4.  font-family: 'Teko', sans-serif;
+5.  font-family: 'Ubuntu', sans-serif;
+6.  font-family: 'Ubuntu Mono', monospace;
+*/
